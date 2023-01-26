@@ -13,3 +13,4 @@ For PCR amplification, we will be using the Hoffman universal primers that bind 
 4. Append the conserved, noncoding regions onto the ends of `A/domestic goose/NL/FAV003517/2021` to generate our artificial, "full segments"
 5. Because we would like to generate RNA corresponding to influenza, genomic RNA which is negative sense (3' to 5'), we need to make sure that our plasmid DNA, when transcribed in vitro, will yield RNA in the correct orientation. To do so, we need to reverse the DNA. So for each complete segment, I then reversed the sequence. 
 
+HA and NS did not contain any sequences with both a uni12 and uni13, nor did the alignments contain either a uni12 or uni13. For those, I went into the alignment insertions/deletions output file and can see that these sequences just got cut off. So I added them back in. 
