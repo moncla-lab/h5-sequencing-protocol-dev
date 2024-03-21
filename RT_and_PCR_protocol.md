@@ -11,7 +11,7 @@ Reverse transcription is performed with the Protoscript II first strand synthesi
 3. Incubate this 22 µl cDNA synthesis reaction at 42°C for 1 hour, and then a final inactivation step at 80°C for 5 minutes. The cDNA product should be stored at -20 C.
 
 ### PCR
-Primers are adapted from H1N1 primers from (Braun et al 2023)(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9939568/). These primers utilize the the Hoffman universal primer sequences with several bases added for specificity based on alignments of relevant H5N1 sequences to improve specificity. Primer sequences are listed in the table below. 
+Primers are adapted from H1N1 primers from [(Braun et al 2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9939568/). These primers utilize the the Hoffman universal primer sequences with several bases added for specificity based on alignments of relevant H5N1 sequences to improve specificity. Primer sequences are listed in the table below. 
 
 **Amplicon** | **Forward/Reverse** | **sequence** | **pool**
 --- | --- | --- | ---
