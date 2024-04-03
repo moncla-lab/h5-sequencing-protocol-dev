@@ -77,7 +77,7 @@ Quantify tagmentation products with the Qubit 1X dsDNA HS Assay kit (Thermo Fish
 
 In order to determine the average fragment length, all samples should be run on the Tapestation using the D1000 or D5000 High Sensitivity Assay.
 
-1. Allow reagents to come to room temperature for 30 minutes (ScreenTape, buffer, ladder). Label 
+1. Allow reagents to come to room temperature for 30 minutes (ScreenTape, buffer, ladder). Label sides of optical tubes.
 2. Vortex reagents and samples and spin down.
 3. Combine 2μl of Sample Buffer and 2μl of Ladder in Agilent optical strip tubes.
 4. Combine 2μl of Sample Buffer and 2μl of your library in Agilent optical strip tubes.
