@@ -30,7 +30,7 @@ H5_NS_R3| Reverse | ATATACGCGTAGTAGAAACAAGGGTGTT| pool 2
 H5_HA_F1| Forward | ATATACGCGTAGCRAAAGCAGGGGTT| HA
 H5_HA_R3| Reverse | ATATACGCGTAGTAGAAACAAGGGTG| HA
 H5_NA_F| Forward | ATATACGCGTAGCRAAAGCAGGAGTT| NA
-H5_NA_R| Reverse | ATATACGCGTACTAGAAACAAGGAGT| NA
+H5_NA_R| Reverse | ATATACGCGTAGTAGAAACAAGGAGT| NA
 
 
 We amplified cDNA using 4 primer pools: the first contained all polymerase genes primers [PB2_F, PB2_R, PB1_F, PB1_R, PA_F, PA_R], all pooled at 10 uM. The second pool contained primer pairs for NP, MP, and NS genes [NP_F2, NP_R2, MP_F, MP_R, NS_F2, NS_R3]. HA and NA were amplified separately using 2ul of cDNA and 1.25ul of forward and reverse primers at 10uM.
