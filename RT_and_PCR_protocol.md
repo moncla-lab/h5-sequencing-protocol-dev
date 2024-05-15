@@ -15,22 +15,22 @@ Primers are adapted from H1N1 primers from [(Braun et al 2023)](https://www.ncbi
 
 **Amplicon** | **Forward/Reverse** | **sequence** | **pool**
 --- | --- | --- | ---
-H5_PB2_F| Forward | ATATACGCGTAGCRAAAGCAGGTCAA| pool 1 
-H5_PB2_R| Reverse | ATATACGCGTAGTAGAAACAAGGTCG| pool 1
-H5_PB1_F| Forward | ATATACGCGTAGCRAAAGCAGGCAAA| pool 1
-H5_PB1_R| Reverse | ATATACGCGTAGTAGAAACAAGGTCG| pool 1
-H5_PA_F| Forward | ATATACGCGTAGCRAAAGCAGGTACT| pool 1
-H5_PA_R| Reverse | ATATACGCGTAGTAGAAACAAGGTAC| pool 1
-H5_NP_F2| Forward | ATATACGCGTAGCRAAAGCAGGGTAGAT| pool 2
-H5_NP_R2| Reverse | ATATACGCGTAGTAGAAACAAGGGTATT| pool 2
-H5_MP_F| Forward | ATATACGCGTAGCRAAAGCAGGTAGA| pool 2
-H5_MP_R| Reverse | ATATACGCGTAGTAGAAACAAGGTAG| pool 2
-H5_NS_F2| Forward | ATATACGCGTAGCRAAAGCAGGGTGACA| pool 2
-H5_NS_R3| Reverse | ATATACGCGTAGTAGAAACAAGGGTGTT| pool 2
-H5_HA_F1| Forward | ATATACGCGTAGCRAAAGCAGGGGTT| HA
-H5_HA_R3| Reverse | ATATACGCGTAGTAGAAACAAGGGTG| HA
-H5_NA_F| Forward | ATATACGCGTAGCRAAAGCAGGAGTT| NA
-H5_NA_R| Reverse | ATATACGCGTAGTAGAAACAAGGAGT| NA
+H5_PB2_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TCA A| pool 1 
+H5_PB2_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TC G| pool 1
+H5_PB1_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** CAA A| pool 1
+H5_PB1_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**CA T| pool 1
+H5_PA_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TAC T| pool 1
+H5_PA_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TA C| pool 1
+H5_NP_F2| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GTA GAT| pool 2
+H5_NP_R2| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT ATT| pool 2
+H5_MP_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TAG A| pool 2
+H5_MP_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TA G| pool 2
+H5_NS_F2| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GTG ACA| pool 2
+H5_NS_R3| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT GTT| pool 2
+H5_HA_F1| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GGT T| HA
+H5_HA_R3| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT G| HA
+H5_NA_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** AGT T| NA
+H5_NA_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**AG T| NA
 
 
 We amplified cDNA using 4 primer pools: the first contained all polymerase genes primers [PB2_F, PB2_R, PB1_F, PB1_R, PA_F, PA_R], all pooled at 10 uM. The second pool contained primer pairs for NP, MP, and NS genes [NP_F2, NP_R2, MP_F, MP_R, NS_F2, NS_R3]. HA and NA were amplified separately using 2ul of cDNA and 1.25ul of forward and reverse primers at 10uM.
