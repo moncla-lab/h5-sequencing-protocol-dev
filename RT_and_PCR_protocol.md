@@ -11,45 +11,27 @@ Reverse transcription is performed with the Protoscript II first strand synthesi
 3. Incubate this 22 µl cDNA synthesis reaction at 42°C for 1 hour, and then a final inactivation step at 80°C for 5 minutes. The cDNA product should be stored at -20 C.
 
 ### PCR
-Primers are adapted from H1N1 primers from [(Braun et al 2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9939568/). These primers utilize the the Hoffman universal primer sequences (in bold) with several bases added based on alignments of relevant H5N1 2.3.4.4b sequences to improve specificity. Primer sequences are listed in the table below. 
+Primers are adapted from H1N1 primers from (Braun et al 2023)(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9939568/). These primers utilize the the Hoffman universal primer sequences with several bases added for specificity based on alignments of relevant H5N1 sequences to improve specificity.  
+Additional internal primers have been added for genes that we have had trouble amplifying (PB1, PB2, PA, and HA).
+Primer sequences and pooling scheme with annealing temperatures can be found in this repo in file 'H5Nx_seq_primers'. Primers are pooled at 10uM total concentration.
+10 Pools:
 
-**Amplicon** | **Forward/Reverse** | **sequence** | **pool**
---- | --- | --- | ---
-H5_PB2_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TCA A| pool 1 
-H5_PB2_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TC G| pool 1
-H5_PB1_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** CAA A| pool 1
-H5_PB1_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**CA T| pool 1
-H5_PA_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TAC T| pool 1
-H5_PA_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TA C| pool 1
-H5_NP_F2| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GTA GAT| pool 2
-H5_NP_R2| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT ATT| pool 2
-H5_MP_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** TAG A| pool 2
-H5_MP_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**TA G| pool 2
-H5_NS_F2| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GTG ACA| pool 2
-H5_NS_R3| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT GTT| pool 2
-H5_HA_F1| Forward | ATA TAC GCG T **AGC RAA AGC AGG** GGT T| HA
-H5_HA_R3| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**GT G| HA
-H5_NA_F| Forward | ATA TAC GCG T **AGC RAA AGC AGG** AGT T| NA
-H5_NA_R| Reverse | ATA TAC GCG T **AGT AGA AAC AAG G**AG T| NA
+1. PB1-1
+2. PB1-2
+3. PB2-1
+4. PB2-2
+5. PA-1
+6. PA-2
+7. HA-1
+8. HA-2
+9. NA
+10. NS_NP_MP
 
-
-We amplified cDNA using 4 primer pools: the first contained all polymerase genes primers [PB2_F, PB2_R, PB1_F, PB1_R, PA_F, PA_R], all pooled at 10 uM. The second pool contained primer pairs for NP, MP, and NS genes [NP_F2, NP_R2, MP_F, MP_R, NS_F2, NS_R3]. HA and NA were amplified separately using 2ul of cDNA and 1.25ul of forward and reverse primers at 10uM.
+We amplified cDNA using 10 primer pools for each sample: using 2ul of cDNA and 1.25ul of forward and reverse primers at 10uM.
 
 PCR was performed with the Q5 Hotstart DNA polymerase (NEB, catalogue # M0493L), with the following reaction volumes: 
 
-For reactions with primer pools 1 and 2:
-
-**Reagent** | **1X volume**
---- | --- 
-Nuclease-free water| 13.75 µl
-Q5 Reaction buffer | 5 µl
-10 mM dNTP| 0.5 µl
-Q5 DNA Polymerase| 0.25 µl
-primer pool 1 or 2| 2.5 µl
-cDNA | 3 ul
-**total reaction volume** | 25 µl
-
-For reactions for HA and NA separate amplification:
+For reactions with primer pools 1-9:
 
 **Reagent** | **1X volume**
 --- | --- 
@@ -62,13 +44,26 @@ Reverse Primer| 1.25 µl
 cDNA | 2 ul
 **total reaction volume** | 25 µl
 
+For reaction with primer pool 10 (NS_NP_MP):
+**Reagent** | **1X volume**
+--- | --- 
+Nuclease-free water| 14.75 µl
+Q5 Reaction buffer | 5 µl
+10 mM dNTP| 0.5 µl
+Q5 DNA Polymerase| 0.25 µl
+primer pool| 2.5 µl
+cDNA | 2 ul
+**total reaction volume** | 25 µl
+
+For reactions for HA and NA separate amplification:
+
 **cycling conditons:**
 
 98 °C 30 seconds
 
 35 cycles:
 * 98 °C 10 seconds
-* 67 °C 30 seconds
+* 67 °C 30 seconds (or 62C as indicated by primer pool spreadsheet)
 * 72 °C 2 minutes
 
 72 °C 2 minutes
