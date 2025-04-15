@@ -3,7 +3,8 @@
 Library preparation was performed with the Nextera XT DNA Library Prep kit (Illumina, catalogue # FC-131-1096), following the manufacturer's recommended [protocol](https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/samplepreps_nextera/nextera-xt/nextera-xt-library-prep-reference-guide-15031942-02.pdf) from the prep kit manual.
 
 ### Pooling amplicons
-For each sample, pool 1, pool 2, HA, and NA amplicons were combined in equimolar concentrations to a total of 1 ng in 5 µl in a PCR strip tube. This generally required diluting the cleaned PCR product, re-quantifying, and using the diluted product for pooling. All reactions were brought up to 5 µl with water. Amplicons that were below the limit of detection of the Qubit HS dsDNA Assay were tagmented and indexed separately to maximize recovery of these gene segments.
+For each sample, the 10 amplicons were combined in equimolar concentrations to a total of 1 ng in 5 µl in a PCR strip tube. Generally I make 2ng in 10ul so I have extra to requbit the pool. This generally required diluting the cleaned PCR product, re-quantifying, and using the diluted product for pooling. All reactions were brought up to 5 µl with water. Amplicons that were below the limit of detection of the Qubit HS dsDNA Assay were tagmented and indexed separately to maximize recovery of these gene segments.
+
 
 ### Nextera XT DNA Library prep
 1. Thaw ATM, TD, and input DNA on ice for 20 minutes. Thaw NT at room temp.
