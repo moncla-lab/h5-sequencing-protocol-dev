@@ -55,8 +55,6 @@ primer pool| 2.5 µl
 cDNA | 2 ul
 **total reaction volume** | 25 µl
 
-For reactions for HA and NA separate amplification:
-
 **cycling conditons:**
 
 98 °C 30 seconds
